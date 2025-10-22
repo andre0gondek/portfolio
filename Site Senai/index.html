@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon-senai.png" type="image/x-icon">
+    <title>SENAI - Técnico em Desenvolvimento de Sistemas</title>
+</head>
+<body>
+    <nav class="sidebar">
+        <a href="#home" class="sidebar-link">
+            <i class="fa fa-home"></i>
+            <p>HOME</p>
+        </a>
+        <a href="#sobre" class="sidebar-link">
+            <i class="fa fa-book"></i>
+            <p>O CURSO</p>
+        </a>
+        <a href="#gradeC" class="sidebar-link">
+            <i class="fa fa-columns"></i>
+            <p>Módulos</p>
+        </a>
+        <a href="#alunos" class="sidebar-link">
+            <i class="fa fa-users"></i>
+            <p>Ambientes</p>
+        </a>
+        <a href="#mercado" class="sidebar-link">
+            <i class="fa fa-handshake-o"></i>
+            <p>Mercado</p>
+        </a>
+        <a href="#tecnologias" class="sidebar-link">
+            <i class="fa fa-connectdevelop"></i>
+            <p>Tecnologias</p>
+        </a>
+        <a href="#contato" class="sidebar-link">
+            <i class="fa fa-envelope"></i>
+            <p>CONTATO</p>
+        </a>
+    </nav>
+    <nav class="mobile-nav">
+        <a href="#home" class="mobile-link">HOME</a>
+        <a href="#sobre" class="mobile-link">O CURSO</a>
+        <a href="#tecnologias" class="mobile-link">TECNOLOGIAS</a>
+        <a href="#contato" class="mobile-link">CONTATO</a>
+    </nav>
+    <div class="main-content" id="main">
+        <header class="container text-center" id="home">
+            <h1><img src="img/logo-senai-principal.jpg" alt="Logo SENAI" 
+                class="header-logo-main"></h1>
+            <h2 class="course-title">Técnico em Desenvolvimento de Sistemas</h2>
+        </header>
+        <section class="container" id="sobre">
+            <h2 class="text-primary">Sobre o Curso</h2>
+            <hr class="section-divider">
+            <p class="text-content">O curso Técnico em Desenvolvimento de Sistemas do SENAI 
+                qualifica profissionais para analisar requisitos, projetar, desenvolver 
+                e testar sistemas de software. Com uma abordagem prática e focada nas 
+                demandas da indústria 4.0, nossos alunos aprendem as linguagens e 
+                frameworks mais modernos, preparando-se para atuar em um dos mercados 
+                que mais crescem no país.</p>
+            <div class="grid highlights-bar">
+                <div class="grid-item">
+                    <span class="highlight-number">1200 horas</span><br>de Curso
+                </div>
+                <div class="grid-item">
+                    <span class="highlight-number">Aulas</span><br>Práticas
+                </div>
+                <div class="grid-item">
+                    <span class="highlight-number">Certificado</span><br>Reconhecido 
+                    Nacionalmente
+                </div>
+            </div>
+        </section>
+        <section class="container" id="gradeC">
+            <h2 class="text-primary">Módulos do Curso</h2>
+            <hr class="section-divider">
+            <div class="grid">
+                <div class="grid-item card">
+                    <ul class="card-list">
+                        <li class="card-header">Módulo 1:<br>Básico</li>
+                        <li class="card-item">Lógica de Programação</li>
+                        <li class="card-item">Sistemas Operacionais</li>
+                        <li class="card-item">Levantamento de Requisitos</li>
+                        <li class="card-item">Arquitetura de Redes com IoT</li>
+                        <li class="card-footer"><span class="highlight-number">
+                            Qualificação</span><br>Auxiliar de Desenvolvimento</li>
+                    </ul>
+                </div>
+                <div class="grid-item card">
+                    <ul class="card-list">
+                        <li class="card-header">Módulo 2:<br>Específico II</li>
+                        <li class="card-item">Banco de Dados</li>
+                        <li class="card-item">Linguagem de Marcação</li>
+                        <li class="card-item">Programação Back-End</li>
+                        <li class="card-item">Programação Front-End</li>
+                        <li class="card-item">Programação para Dispositívos Móveis</li>
+                        <li class="card-item">Internet das Coisas (IoT)</li>
+                        <li class="card-footer"><span class="highlight-number">
+                            Qualificação</span><br>Programador de Sistemas</li>
+                    </ul>
+                </div>
+                <div class="grid-item card">
+                    <ul class="card-list">
+                        <li class="card-header">Módulo 3:<br>Específico III</li>
+                        <li class="card-item">Projetos de Software</li>
+                        <li class="card-item">Testes de Software</li>
+                        <li class="card-footer"><span class="highlight-number">
+                            Habilitação</span><br>Técnico em Desenvolvimento de Sistemas</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="alunos">
+            <h2 class="text-primary">Nossos Ambientes</h2>
+            <hr class="section-divider">
+            <div class="slideshow-container">
+                <img class="slide" src="img/img1.jpg" 
+                alt="Alunos SENAI em laboratório de informática">
+                <img class="slide" src="IMG/img2.jpg" alt="Sala de aula moderna no SENAI">
+                <div class="slideshow-controls">
+                    <div class="arrow left" onclick="plusDivs(-1)">&#10094;</div>
+                    <div class="arrow right" onclick="plusDivs(1)">&#10095;</div>
+                    <div class="dots-container">
+                        <span class="dot" onclick="currentDiv(1)"></span>
+                        <span class="dot" onclick="currentDiv(2)"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container text-content" id="mercado">
+            <h2 class="text-primary">Mercado de Trabalho</h2>
+            <hr class="section-divider">
+            <p>O profissional formado pelo SENAI encontra um mercado aquecido, 
+                com alta demanda por desenvolvedores de software, analistas de sistemas, 
+                programadores web e mobile. A indústria 4.0 impulsiona a necessidade de 
+                sistemas inteligentes e conectados, abrindo portas em startups, 
+                grandes corporações, fintechs, agronegócio e setor público. 
+                A sólida formação prática do SENAI é um diferencial reconhecido pelas empresas, 
+                garantindo altas taxas de empregabilidade e excelentes oportunidades de carreira.
+            </p>
+        </section>
+        <section class="container" id="tecnologias">
+            <h2 class="text-primary">Principais Tecnologias</h2>
+            <hr class="section-divider">
+            <div class="tech-gallery">
+                <a href="#"><img src="img/html5.png" alt="HTML5"></a>
+                <a href="#"><img src="img/css3.png" alt="CSS3"></a>
+                <a href="#"><img src="img/git.png" alt="git"></a>
+                <a href="#"><img src="img/andorid.png" alt="andorid"></a>
+                <a href="#"><img src="img/sql.png" alt="SQL"></a>
+                <a href="#"><img src="img/Java.png" alt="Java"></a>
+            </div>
+        </section>
+        <section class="container" id="contato">
+            <h2 class="text-primary">Contato</h2>
+            <hr class="section-divider">
+            <div class="contact-info">
+                <p><i class="fa fa-map-marker"></i>Av. Paulista, 1313 - São Paulo, SP</p>
+                <p><i class="fa fa-phone"></i>(11) 3333-3333</p>
+                <p><i class="fa fa-envelope"></i>contato@sp.senai.br</p>
+            </div>
+            <p>Entre em Contato:</p>
+            <form>
+                <input class="form-input" type="text" placeholder="Nome" required name="Nome">
+                <input class="form-input" type="text" placeholder="Email" required name="Email">
+                <input class="form-input" type="text" placeholder="Assunto" required name="Assunto">
+                <input class="form-input" type="text" placeholder="Mensagem" required name="Mensagem">
+                <button class="btn" type="submit">
+                    <i class="fa fa-paper-plane"></i> Enviar Mensagem
+                </button>
+            </form>
+        </section>
+        <footer class="main-footer">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/senaisaopaulo/?locale=pt_BR" 
+                target="blank"><i class="fa fa-facebook-official"></i></a>
+                <a href="https://www.instagram.com/senai.sp/" target="blank">
+                    <i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/school/senaisp/posts/?feedView=all" 
+                target="blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <p>Desenvolvido para o <a href="https://sp.senai.br/" target="blank">SENAI-SP</a></p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

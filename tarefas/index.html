@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+h1{color: #333;}
+input, button{
+    padding: 8px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+li{
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-left: 5px solid #2196f3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li.feito{
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+.botoes button{
+    margin-left: 5;
+    padding: 4px 8px;
+    font-size: 14px;
+}
+    </style>
+</head>
+<body>
+    <h1>Minha Lista de Tarefas</h1>
+    <input type="text" id="tarefa" placeholder="Digite uma Tarefa">
+    <button onclick="adicionarTarefa()">Adicionar</button>
+    <button onclick="limparTudo()">Limpar Tudo</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+ 
